@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding:0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(115, 102, 232);
+}
+
+.main{
+    width:100%;
+    height:100%;
+    background: linear-gradient(rgb(34, 34, 219), rgb(230, 160, 230));
+    background-size: cover;
+}
+
+.icn{
+    display: flex;
+    font-size: 52px;
+}
+.fa-note-sticky{
+    margin-left: 32px;
+    margin-top: 22px;
+}
+.icn h3{
+    margin-left: 6px;
+    color:white;
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+.new-note{
+    margin-top: 22px;
+    margin-left: 52px;
+}
+
+.btn{
+    padding: 12px;
+    background: linear-gradient(rgb(50, 30, 232),rgb(85, 85, 219));
+    border: 2px solid transparent;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: linear-gradient(rgb(103, 90, 223),rgb(170, 67, 225));
+}
+
+
+
+.note{
+    width:100%;
+    height:10000px;
+    border: 1px solid transparent;
+    margin-top:12px ;
+    /* margin-left: 16px; */
+    margin-right:20%;;
+    margin-bottom: 12px;
+    background: linear-gradient(rgb(143, 131, 239),rgb(213, 148, 249));
+    border-radius: 4px;
+    
+}
+
+.textarea{
+    background: white;
+    width: 660px;
+    height: 220px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 12px;
+    margin-left: 32px;
+    margin-top: 12px;
+    border: 2px solid transparent;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
